@@ -6,6 +6,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { UserComponent } from './components/user/user.component';
+import { PageContentComponent } from './components/page-content/page-content.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { UserComponent } from './components/user/user.component';
     SidebarComponent,
     HeaderComponent,
     LanguageSelectorComponent,
-    UserComponent
+    UserComponent,
+    PageContentComponent
   ],
   imports: [
     BrowserModule
