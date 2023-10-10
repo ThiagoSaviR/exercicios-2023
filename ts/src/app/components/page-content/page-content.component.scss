@@ -2,15 +2,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
+
 .main-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px 0;
-   
+    margin: 30px 0;   
 }
 
 .main{
@@ -38,7 +37,6 @@
 iframe{
     width: 100%;
     height: 439px;
-
 }
 
 .buttons{
@@ -55,8 +53,8 @@ button{
     border-radius: 4px;
     padding:  6px 12px;
     margin-right: 5px;
-
 }
+
 img{
     width: 19px;
 }
@@ -68,83 +66,5 @@ img{
     line-height: 25px;
     color: #ED7839;
     margin: 12px 0;
-}
-
-.title{
-    background-color:#FDF1EB;
-    border: 1px solid #ECECEC;
-    border-bottom: 0;
-    border-radius: 3px 3px 0 0;
-    padding: 10px 15px;
-    
-}
-.title h1 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    color:#5C5C5C;
-    font-family: 'Roboto', sans-serif;
-}
-
-.text{
-    border: 1px solid #ECECEC;
-    border-radius: 0 0 3px 3px;
-    padding-bottom: 17px;
-}
-.detail-text{
-    padding: 15px;
-    margin: 3px;
-    overflow-y: scroll;
-    color: #5C5C5C;
-    max-height: 361px;
-
-}
-.detail-text::-webkit-scrollbar{
-    width: 3px;
-    background-color: #E7E7E7;
-    border-radius: 5px;
-}
-.detail-text::-webkit-scrollbar-thumb{
-    background-color: #BFBFBF;
-}
-
-.detail-text p{
-    font-size: 12px;
-}
-.detail-text h2{
-    font-size: 12px;
-}
-sup{
-    margin: 0px;
-    font-weight: 800;
-    color: #ADA0A0;
-    font-weight: 400;
-}
-.author{
-    margin: 25px 0;
-}
-
-.summary{
-    cursor: pointer;
-}
-
-.summary-text{
-    color: #5C5C5C;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 15px;
-    line-height: 22.75px;
-}
-
-.summary-text p{
-    margin-bottom: 30px;
-}
-
-.btn-show-more{
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 21.33px;
-    color: #ED7839;
-    text-decoration: none;
 }
 

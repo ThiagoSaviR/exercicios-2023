@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { UserComponent } from './components/user/user.component';
 import { PageContentComponent } from './components/page-content/page-content.component';
+import { SummaryComponent } from './components/summary/summary.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PageContentComponent } from './components/page-content/page-content.com
     HeaderComponent,
     LanguageSelectorComponent,
     UserComponent,
-    PageContentComponent
+    PageContentComponent,
+    SummaryComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule
