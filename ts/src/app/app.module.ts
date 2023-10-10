@@ -9,6 +9,7 @@ import { UserComponent } from './components/user/user.component';
 import { PageContentComponent } from './components/page-content/page-content.component';
 import { SummaryComponent } from './components/summary/summary.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { DiscussionsComponent } from './components/discussions/discussions.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DetailComponent } from './components/detail/detail.component';
     UserComponent,
     PageContentComponent,
     SummaryComponent,
-    DetailComponent
+    DetailComponent,
+    DiscussionsComponent
   ],
   imports: [
     BrowserModule

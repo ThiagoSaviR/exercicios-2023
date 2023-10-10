@@ -1,0 +1,142 @@
+.title{
+    background-color:#FDF1EB;
+    border: 1px solid #ECECEC;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 15px;
+    
+}
+.title > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color:#5C5C5C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    width: 100%;
+    border: 1px solid #ECECEC;
+    border-radius: 0 0 3px 3px;
+    padding-bottom: 17px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-topic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-topic > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #ED7839 ;
+    margin-top: 16px;
+}
+
+.create-topic > p{
+    
+    text-align: center;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.25px;
+}
+
+.icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 0;
+}
+
+.create{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.divisor{
+    width: 95%;
+    margin: 50px;
+    border: 1px solid #E7E7E7;
+    height: 1px;
+}
+
+.btn-create-topic{
+    position: absolute;
+    top: 30px;
+    width: 133px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    background: linear-gradient(to bottom, #FFB354, #F0813D);
+    padding: 13px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create img{
+    padding-right: 6px;
+}
+
+.topics{
+    background-color: #FFFFFF;
+   border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    margin: 15px;
+    filter: drop-shadow(0px 0px 2px #00000037);
+}
+
+.topic{
+    margin: 17px 0 18px 24.17px;
+}
+
+.topic > h2{
+    font-size: 16px;
+    color: #ED7839;
+    font-weight: 700;
+    line-height: 20px;
+}
+.topic > p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    margin: 10px 0;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    
+}
+.settings > a, p{
+    margin-right: 15px;
+}
+.settings > p{
+    font-weight: 350;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #757575;
+    line-height: 18.62px;
+
+}

@@ -1,0 +1,70 @@
+<div class="discussions-container">
+    <div class="discussions">
+        <div class="title">
+            <h1>Discussões</h1>
+        </div>
+        <div class="content">
+            <div *ngIf="!showForm" class="create-topic">
+                <h1>Compartilhe suas ideias ou dúvidas com os autores!</h1>
+                <div class="icons">
+                    <img src="../../../assets/icone1.png" alt="icone 1">
+                    <img src="../../../assets/icone2.png" alt="icone 2">
+                    <img src="../../../assets/icone3.png" alt="icone 3">
+                </div>
+                <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
+                    questionamentos ou sugestões para o autor!</p>
+                <div class="create">
+                    <div class="divisor"></div>
+                    <a href="#" (click)="toggleForm($event)" class="btn-create-topic">
+                        <img src="../../../assets/icon - criar.png" alt="criar tópico">
+                        criar tópico
+                    </a>
+                </div>
+            </div>
+
+            <div *ngIf="showForm" class="create-topic">
+                
+            </div>
+            <div class="topics">
+                <div class="topic">
+                    <h2>Assunto da pergunta aparece aqui</h2>
+                    <p>Carlos Henrique Santos</p>
+                    <div class="text">
+                        <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão
+                            e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                    </div>
+                    <div class="settings">
+                        <a href="">
+                            <img src="../../../assets/mais informações.png" alt="mais informações">
+                        </a>
+                        <a href="">
+                            <img src="../../../assets/favoritar.png" alt="favoritar">
+                        </a>
+                        <p>1 like</p>
+                        <p>1 responsta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topics">
+                <div class="topic">
+                    <h2>Assunto da pergunta aparece aqui</h2>
+                    <p>Carlos Henrique Santos</p>
+                    <div class="text">
+                        <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão
+                            e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                    </div>
+                    <div class="settings">
+                        <a href="">
+                            <img src="../../../assets/mais informações.png" alt="mais informações">
+                        </a>
+                        <a href="">
+                            <img src="../../../assets/favoritar.png" alt="favoritar">
+                        </a>
+                        <p>1 like</p>
+                        <p>1 responsta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
