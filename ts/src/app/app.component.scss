@@ -1,10 +1,12 @@
 .page-container{
     width: 100vw;
+    height: 100vw;
     display: flex;
 }
 
-.header{
-    width: 100%;
+.contents{
+    margin-left: 220px;
+ 
     display: flex;
     flex-direction: column;
 }
@@ -12,3 +14,4 @@
 .content{
     margin:  0 43px;
 }
+
