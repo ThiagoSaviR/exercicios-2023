@@ -60,9 +60,12 @@
                         <a href="">
                             <img src="../../../assets/favoritar.png" alt="favoritar">
                         </a>
-                        <p>1 like</p>
-                        <p>1 responsta</p>
+                        <p>4 like</p>
+                        <p (click)="openAnwers($event)" >4 responsta</p>
                     </div>
+                </div>
+                <div *ngIf="open">
+                    <app-answers></app-answers>
                 </div>
             </div>
         </div>

@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DiscussionsComponent implements OnInit {
 
   showForm = false;
+  open = false;
 
   constructor() { }
 
@@ -24,6 +25,11 @@ export class DiscussionsComponent implements OnInit {
     if (this.showForm){
       this.showForm = !this.showForm
     }
+  }
+
+  openAnwers(e: Event){
+    e.preventDefault
+    this.open = !this.open;
   }
 
 }

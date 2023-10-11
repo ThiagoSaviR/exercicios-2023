@@ -12,6 +12,7 @@ import { DetailComponent } from './components/detail/detail.component';
 import { DiscussionsComponent } from './components/discussions/discussions.component';
 import { FormComponent } from './components/form/form.component';
 import { MessageSentComponent } from './components/message-sent/message-sent.component';
+import { AnswersComponent } from './components/answers/answers.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MessageSentComponent } from './components/message-sent/message-sent.com
     DetailComponent,
     DiscussionsComponent,
     FormComponent,
-    MessageSentComponent
+    MessageSentComponent,
+    AnswersComponent
   ],
   imports: [
     BrowserModule

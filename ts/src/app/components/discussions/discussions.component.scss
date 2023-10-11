@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .create-topic{
@@ -46,7 +47,6 @@
 }
 
 .create-topic > p{
-    
     text-align: center;
     color: #595959;
     font-size: 14px;
@@ -98,8 +98,9 @@
 }
 
 .topics{
+    max-width: 1192px;
     background-color: #FFFFFF;
-   border: 1px solid #E7E7E7;
+    border: 1px solid #E7E7E7;
     border-radius: 4px;
     margin: 15px;
     filter: drop-shadow(0px 0px 2px #00000037);
@@ -117,7 +118,7 @@
 }
 .topic > p{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 15px;
 
 }
@@ -128,6 +129,10 @@
     line-height: 17.5px;
     margin: 10px 0;
 }
+.text > p{
+    max-width: 1192px;
+
+}
 
 .settings{
     display: flex;
@@ -136,7 +141,9 @@
 }
 .settings > a, p{
     margin-right: 15px;
+    cursor: pointer;
 }
+
 .settings > p{
     font-weight: 350;
     font-family: 'Segoe UI', sans-serif;
