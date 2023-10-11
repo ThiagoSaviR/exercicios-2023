@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
+  ShowSentForm = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleSentForm(e: Event){
+    e.preventDefault();
+    this.ShowSentForm = !this.ShowSentForm
   }
 
 }

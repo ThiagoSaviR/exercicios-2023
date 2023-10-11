@@ -20,4 +20,10 @@ export class DiscussionsComponent implements OnInit {
     this.showForm = !this.showForm;
   }
 
+  closeForm(){
+    if (this.showForm){
+      this.showForm = !this.showForm
+    }
+  }
+
 }

@@ -1,4 +1,4 @@
-<div class="form-container">
+<div *ngIf="!ShowSentForm" class="form-container">
     <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
     <form class="form">
         <div class="inputs">
@@ -8,9 +8,46 @@
             <Textarea rows="6"></Textarea>
         </div>
         <div class="btn-send">
-            <button>Enviar</button>
+            <button (click)="toggleSentForm($event)">Enviar</button>
         </div>
         <div class="divisor"></div>
     </form>
+</div>
+
+<div *ngIf="ShowSentForm" class="form-container form-sent">
+    <h2>Seu tópico foi enviado com sucesso! :D</h2>
+    <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+    <a href="#">Descubra outros trabalhos!</a>
+    <div class="create">
+        <div class="divisor"></div>
+        <a href="#" (click)="toggleSentForm($event)" class="btn-create-topic">
+            criar novo tópico
+        </a>
+    </div>
+    <div class="topics">
+        <div class="blur-message">
+            <img src="../../../assets/.png" alt="mensagem enviada">
+            <p>Aguardando feedback dos autores</p>
+            <a (click)="toggleSentForm($event)" href="#">Editar tópico</a>
+        </div>
+        <div class="topic">
+            <h2>Assunto da pergunta aparece aqui</h2>
+            <p>Carlos Henrique Santos</p>
+            <div class="text">
+                <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão
+                    e impacto de processo formativo situado impacto de processo formativo processo...</p>
+            </div>
+            <div class="settings">
+                <a href="">
+                    <img src="../../../assets/mais informações.png" alt="mais informações">
+                </a>
+                <a href="">
+                    <img src="../../../assets/favoritar.png" alt="favoritar">
+                </a>
+                <p>1 like</p>
+                <p>1 responsta</p>
+            </div>
+        </div>
+    </div>
 </div>
 
