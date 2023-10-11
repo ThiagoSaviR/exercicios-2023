@@ -26,9 +26,14 @@
 }
 
 .create-topic{
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.creating-topic{
+    width: 100%;
 }
 
 .create-topic > h1 {

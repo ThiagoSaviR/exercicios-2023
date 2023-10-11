@@ -10,6 +10,8 @@ import { PageContentComponent } from './components/page-content/page-content.com
 import { SummaryComponent } from './components/summary/summary.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { DiscussionsComponent } from './components/discussions/discussions.component';
+import { FormComponent } from './components/form/form.component';
+import { MessageSentComponent } from './components/message-sent/message-sent.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { DiscussionsComponent } from './components/discussions/discussions.compo
     PageContentComponent,
     SummaryComponent,
     DetailComponent,
-    DiscussionsComponent
+    DiscussionsComponent,
+    FormComponent,
+    MessageSentComponent
   ],
   imports: [
     BrowserModule
