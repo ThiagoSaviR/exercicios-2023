@@ -14,6 +14,7 @@ import { DiscussionsComponent } from './components/discussions/discussions.compo
 import { FormComponent } from './components/form/form.component';
 
 import { AnswersComponent } from './components/answers/answers.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AnswersComponent } from './components/answers/answers.component';
     DetailComponent,
     DiscussionsComponent,
     FormComponent,
-    AnswersComponent
+    AnswersComponent,
+    FooterComponent
   ],
   imports: [
     FormsModule,
