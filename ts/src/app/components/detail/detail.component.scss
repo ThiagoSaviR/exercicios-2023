@@ -1,26 +1,26 @@
-.title{
-    background-color:#FDF1EB;
+.title {
+    background-color: #FDF1EB;
     border: 1px solid #ECECEC;
     border-bottom: 0;
     border-radius: 3px 3px 0 0;
-    padding: 10px 15px;    
+    padding: 10px 15px;
 }
 
 .title h1 {
     font-size: 20px;
     font-weight: 500;
     line-height: 25px;
-    color:#5C5C5C;
+    color: #5C5C5C;
     font-family: 'Roboto', sans-serif;
 }
 
-.text{
+.text {
     border: 1px solid #ECECEC;
     border-radius: 0 0 3px 3px;
     padding-bottom: 17px;
 }
 
-.detail-text{
+.detail-text {
     padding: 15px;
     margin: 3px;
     overflow-y: scroll;
@@ -28,31 +28,31 @@
     max-height: 361px;
 }
 
-.detail-text::-webkit-scrollbar{
+.detail-text::-webkit-scrollbar {
     width: 3px;
     background-color: #E7E7E7;
     border-radius: 5px;
 }
 
-.detail-text::-webkit-scrollbar-thumb{
+.detail-text::-webkit-scrollbar-thumb {
     background-color: #BFBFBF;
 }
 
-.detail-text p{
+.detail-text p {
     font-size: 12px;
 }
 
-.detail-text h2{
+.detail-text h2 {
     font-size: 12px;
 }
 
-sup{
+sup {
     margin: 0px;
     font-weight: 800;
     color: #ADA0A0;
     font-weight: 400;
 }
 
-.author{
+.author {
     margin: 25px 0;
 }

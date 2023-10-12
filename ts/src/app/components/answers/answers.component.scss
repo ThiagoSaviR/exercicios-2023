@@ -1,13 +1,13 @@
-
-.comments-container{
+.comments-container {
     border: 1px solid #E7E7E7;
-    padding-bottom: 25px ;
+    padding-bottom: 25px;
 }
 
-.topic{
+.topic {
     margin: 17px 24px 18px 24.17px;
 }
-.topic > p{
+
+.topic>p {
     font-size: 12px;
     font-weight: 700;
     line-height: 15px;
@@ -20,24 +20,24 @@
     margin: 10px 0;
 }
 
-.author{
+.author {
     display: flex;
     justify-content: space-between;
 }
 
-.author p{
+.author>p {
     color: #5C5C5C;
     font-weight: 700;
     font-size: 14px;
 
 }
 
-.emblem{
+.emblem {
     width: 92px;
     display: flex;
     justify-content: space-between;
 }
 
-.topic-color{
- background-color: #F8F8F8;
+.topic-color {
+    background-color: #F8F8F8;
 }

@@ -16,18 +16,18 @@ export class DiscussionsComponent implements OnInit {
   }
 
 
-  toggleForm(e: Event){
+  toggleForm(e: Event) {
     e.preventDefault();
     this.showForm = !this.showForm;
   }
 
-  closeForm(){
-    if (this.showForm){
+  closeForm() {
+    if (this.showForm) {
       this.showForm = !this.showForm
     }
   }
 
-  openAnwers(e: Event){
+  openAnwers(e: Event) {
     e.preventDefault
     this.open = !this.open;
   }

@@ -3,7 +3,8 @@
     <form class="subject" (ngSubmit)="onSubmit($event)" #meuForm="ngForm">
         <div class="inputs">
             <label>Assunto</label>
-            <input type="text" name="subject" class="subject" placeholder="Defina um tópico sucinto para notificar os autores..." ngModel required>
+            <input type="text" name="subject" class="subject"
+                placeholder="Defina um tópico sucinto para notificar os autores..." ngModel required>
             <label>Conteúdo</label>
             <Textarea type="text" name="content" rows="6" ngModel required></Textarea>
         </div>
@@ -16,7 +17,8 @@
 
 <div *ngIf="ShowSentForm" class="form-container form-sent">
     <h2>Seu tópico foi enviado com sucesso! :D</h2>
-    <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+    <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
+    </p>
     <a href="#">Descubra outros trabalhos!</a>
     <div class="create">
         <div class="divisor"></div>
@@ -27,7 +29,6 @@
     <div class="topics">
         <div class="blur-message">
             <img src="../../../assets/visto.png" alt="mensagem enviada">
-            
             <h3>Aguardando feedback dos autores</h3>
             <a (click)="toggleSentForm($event)" href="#">Editar tópico</a>
         </div>
@@ -51,4 +52,3 @@
         </div>
     </div>
 </div>
-

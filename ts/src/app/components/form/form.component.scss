@@ -1,55 +1,62 @@
-.form-container{
+.form-container {
     margin: 15px;
 }
 
-.form-container > p{
+.form-container>p {
     font-size: 14px;
     font-weight: 400;
     line-height: 17.5px;
     color: #5C5C5C;
     text-align: center;
 }
-.subject{
+
+.subject {
     margin: 22px 0;
 }
-.inputs{
+
+.inputs {
     display: flex;
     flex-direction: column;
 }
 
-.inputs > label{
+.inputs>label {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 18.75px;
     color: #ED7839;
 }
-.inputs > input{
+
+.inputs>input {
     height: 39px;
     border: 1px solid #CCCCCC;
     border-radius: 3px;
     padding-left: 23.13px;
     margin-bottom: 10px;
 }
-.inputs > input, textarea:focus{
+
+.inputs>input,
+textarea:focus {
     outline: none;
 }
-.inputs > textarea{
+
+.inputs>textarea {
     border: 1px solid #CCCCCC;
     border-radius: 3px 3px 0 0;
     resize: none;
     padding: 23.13px;
-
 }
-.inputs > textarea::-webkit-scrollbar{
+
+.inputs>textarea::-webkit-scrollbar {
     width: 10px;
     background-color: #E7E7E7;
 }
 
-.inputs > textarea::-webkit-scrollbar-thumb{
+.inputs>textarea::-webkit-scrollbar-thumb {
     background-color: #BFBFBF;
 }
-.btn-send{
+
+.btn-send {
     display: flex;
     justify-content: end;
     background-color: #EAF1F2;
@@ -58,7 +65,7 @@
     border-radius: 0 0 3px 3px;
 }
 
-.btn-send > button{
+.btn-send>button {
     width: 205px;
     height: 31px;
     background: linear-gradient(to bottom, #FFB354, #F1833E);
@@ -68,14 +75,15 @@
     font-weight: 700;
 }
 
-.divisor{
+.divisor {
     display: flex;
     width: 100%;
     margin: 15px 0;
     border: 1px solid #E7E7E7;
     height: 1px;
 }
-.create{
+
+.create {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84,21 +92,23 @@
 }
 
 
-.form-sent > h2{
+.form-sent>h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21,09px;
+    line-height: 21, 09px;
     text-align: center;
     color: #ED7839;
 }
-.form-sent > p{
+
+.form-sent>p {
     font-size: 14px;
     line-height: 19.25px;
     margin: 18px;
     color: #595959;
 }
-.form-sent > a{
+
+.form-sent>a {
     display: flex;
     justify-content: center;
     color: #F48F44;
@@ -108,9 +118,9 @@
     margin: 47px;
 }
 
-.btn-create-topic{
+.btn-create-topic {
     position: absolute;
-    top:-4px;
+    top: -4px;
     text-decoration: none;
     color: #ffff;
     font-weight: 700;
@@ -124,7 +134,7 @@
     justify-content: center;
 }
 
-.topics{
+.topics {
     background-color: #e7e7e729;
     border: 1px solid #E7E7E7;
     border-radius: 4px;
@@ -133,23 +143,23 @@
     position: relative;
 }
 
-.topic{
-    filter:blur(5px);
+.topic {
+    filter: blur(5px);
     margin: 17px 0 18px 24.17px;
     user-select: none;
 }
 
-.topic > h2{
+.topic>h2 {
     font-size: 16px;
     color: #ED7839;
     font-weight: 700;
     line-height: 20px;
 }
-.topic > p{
+
+.topic>p {
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
-
 }
 
 .text {
@@ -159,15 +169,17 @@
     margin: 10px 0;
 }
 
-.settings{
+.settings {
     display: flex;
     align-items: center;
-    
 }
-.settings > a, p{
+
+.settings>a,
+p {
     margin-right: 15px;
 }
-.settings > p{
+
+.settings>p {
     font-weight: 350;
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
@@ -175,16 +187,17 @@
     line-height: 18.62px;
 }
 
-.blur-message{
+.blur-message {
     width: 100%;
     position: absolute;
     top: 30%;
     display: flex;
     flex-direction: column;
-    justify-self:center;
+    justify-self: center;
     align-items: center;
 }
-.blur-message > h3{
+
+.blur-message>h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -192,11 +205,8 @@
     margin: 8px;
 }
 
-.blur-message > a{
+.blur-message>a {
     color: #ED7839;
     cursor: pointer;
     z-index: 1000;
 }
-
-
-

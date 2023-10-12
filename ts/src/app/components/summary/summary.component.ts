@@ -16,7 +16,7 @@ export class SummaryComponent implements OnInit {
 
   toggleText() {
     this.showText = !this.showText;
-    
+
   }
 
 }

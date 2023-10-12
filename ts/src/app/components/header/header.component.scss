@@ -1,4 +1,4 @@
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,27 +7,28 @@
     padding: 0 36px;
 }
 
-.title{
+.title {
     color: #725C5C;
     padding: 5px 0;
 }
 
-p, h1{
+p,
+h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-p{
+p {
     font-size: 14px;
     line-height: 16.41px;
 }
 
-h1{
+h1 {
     font-size: 22px;
     line-height: 25.78px;
     font-weight: 400;
 }
-.settings{
+
+.settings {
     display: flex;
     align-items: center;
 }
-
