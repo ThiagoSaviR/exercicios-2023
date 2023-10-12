@@ -16,9 +16,8 @@ export class FormComponent implements OnInit {
   onSubmit(e: Event) {
     e.preventDefault();
     this.ShowSentForm = !this.ShowSentForm
-    // Lógica para processar o formulário aqui
-    // Você pode acessar os valores do formulário usando ngModel
   }
+  
   toggleSentForm(e: Event) {
     e.preventDefault();
     this.ShowSentForm = !this.ShowSentForm
