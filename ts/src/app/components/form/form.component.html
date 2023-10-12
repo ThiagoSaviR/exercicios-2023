@@ -1,14 +1,14 @@
 <div *ngIf="!ShowSentForm" class="form-container">
     <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
-    <form class="form">
+    <form class="subject" (ngSubmit)="onSubmit($event)" #meuForm="ngForm">
         <div class="inputs">
             <label>Assunto</label>
-            <input class="subject" placeholder="Defina um tópico sucinto para notificar os autores...">
+            <input type="text" name="subject" class="subject" placeholder="Defina um tópico sucinto para notificar os autores..." ngModel required>
             <label>Conteúdo</label>
-            <Textarea rows="6"></Textarea>
+            <Textarea type="text" name="content" rows="6" ngModel required></Textarea>
         </div>
         <div class="btn-send">
-            <button (click)="toggleSentForm($event)">Enviar</button>
+            <button (click)="onSubmit($event)" class=".btn-create-topic">Enviar</button>
         </div>
         <div class="divisor"></div>
     </form>
@@ -20,14 +20,15 @@
     <a href="#">Descubra outros trabalhos!</a>
     <div class="create">
         <div class="divisor"></div>
-        <a href="#" (click)="toggleSentForm($event)" class="btn-create-topic">
+        <a class="btn-create-topic" href="#" (click)="toggleSentForm($event)">
             criar novo tópico
         </a>
     </div>
     <div class="topics">
         <div class="blur-message">
-            <img src="../../../assets/.png" alt="mensagem enviada">
-            <p>Aguardando feedback dos autores</p>
+            <img src="../../../assets/visto.png" alt="mensagem enviada">
+            
+            <h3>Aguardando feedback dos autores</h3>
             <a (click)="toggleSentForm($event)" href="#">Editar tópico</a>
         </div>
         <div class="topic">

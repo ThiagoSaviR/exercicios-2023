@@ -9,7 +9,7 @@
     color: #5C5C5C;
     text-align: center;
 }
-.form{
+.subject{
     margin: 22px 0;
 }
 .inputs{
@@ -183,9 +183,8 @@
     flex-direction: column;
     justify-self:center;
     align-items: center;
-    z-index: 1000;
 }
-.blur-message > p{
+.blur-message > h3{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -194,8 +193,9 @@
 }
 
 .blur-message > a{
-     color: #ED7839;
-     cursor: pointer;
+    color: #ED7839;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 

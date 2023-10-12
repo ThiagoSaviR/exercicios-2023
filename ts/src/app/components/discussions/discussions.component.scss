@@ -104,13 +104,14 @@
     border-radius: 4px;
     margin: 15px;
     filter: drop-shadow(0px 0px 2px #00000037);
+    cursor: pointer;
 }
 
 .topic{
     margin: 17px 0 18px 24.17px;
 }
 
-.topic > h2{
+.topic > h4{
     font-size: 16px;
     color: #ED7839;
     font-weight: 700;

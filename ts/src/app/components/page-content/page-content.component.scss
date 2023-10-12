@@ -40,7 +40,7 @@ iframe{
 .buttons{
     display: flex;
 }
-button{
+a{
     display:flex;
     justify-content: space-between;
     font-size: 16px;
@@ -51,6 +51,7 @@ button{
     border-radius: 4px;
     padding:  6px 12px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 img{
@@ -65,4 +66,5 @@ img{
     color: #ED7839;
     margin: 12px 0;
 }
+
 
